@@ -5,9 +5,14 @@ gem 'rails', '3.2.3'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+<<<<<<< HEAD
 gem 'sqlite3'
 
 gem 'multi_json', '1.3.1'
+=======
+gem 'sqlite3', '1.3.3'
+>>>>>>> 0250728d8545e5870a2b28611555e90790d3e282
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -36,3 +41,15 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+<<<<<<< HEAD
+=======
+
+group :development do
+  gem 'rspec-rails', '2.6.1'
+end
+
+group :test do
+  gem 'rspec-rails', '2.6.1'
+  gem 'webrat', '0.7.1'
+end
+>>>>>>> 0250728d8545e5870a2b28611555e90790d3e282
