@@ -11,12 +11,14 @@ gem 'sqlite3', '1.3.6'
 # in production environments by default.
 
 group :development do
-  gem 'rspec-rails', '2.6.1'
+  gem 'rspec-rails', '2.9.0'
+  gem 'capybara'
 end
 
 
 group :test do
-  gem 'rspec-rails', '2.6.1'
+  gem 'rspec-rails', '2.9.0'
+  gem 'capybara'
   gem 'webrat', '0.7.1'
 end
 
