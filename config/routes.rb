@@ -1,4 +1,14 @@
 DemoApp::Application.routes.draw do
+  get "profile_pages/profile"
+
+  get "profile_pages/editprofile"
+
+  get "profile_pages/contact"
+
+  get "profile_pages/emailedit"
+
+  get "profile_pages/phoneedit"
+
   get "test_pages/home"
 
   get "static_pages/home"
