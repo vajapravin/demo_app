@@ -1,4 +1,8 @@
-DemoApp::Application.routes.draw do
+DemoApp::Application.routes.draw do  
+  get "users/new"
+  
+  root to: "static_pages#home"
+  
   get "profile_pages/profile"
 
   get "profile_pages/editprofile"
@@ -16,11 +20,12 @@ DemoApp::Application.routes.draw do
   get "static_pages/help"
 
   get "static_pages/about"
+  
+  get "static_pages/contact"
 
   get "pages/home"
 
   get "pages/contact"
-
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
