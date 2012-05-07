@@ -1,6 +1,4 @@
 DemoApp::Application.routes.draw do
-<<<<<<< HEAD
-=======
   get "profile_pages/profile"
 
   get "profile_pages/editprofile"
@@ -19,15 +17,10 @@ DemoApp::Application.routes.draw do
 
   get "static_pages/about"
 
->>>>>>> 8ce5aab3e00c220001ae701cb6441f1f358e78f8
   get "pages/home"
 
   get "pages/contact"
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 8ce5aab3e00c220001ae701cb6441f1f358e78f8
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

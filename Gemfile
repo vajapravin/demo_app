@@ -1,22 +1,12 @@
 source :gemcutter
-gem 'sinatra', '1.0'
 
 gem 'rails', '3.2.3'
 
-<<<<<<< HEAD
 gem "pg", :group => :production
 gem "sqlite3-ruby", :group => :development
 
 
-group :development do
-  gem 'rspec-rails', '2.6.1'  
-end
 
-group :test do
-  gem 'rspec-rails', '2.6.1'
-  gem 'webrat', '0.7.1'
-end
-=======
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 #gem 'pg', '0.12.2'
@@ -68,5 +58,3 @@ gem 'jquery-rails', '2.0.0'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
-
->>>>>>> 8ce5aab3e00c220001ae701cb6441f1f358e78f8
