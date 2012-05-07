@@ -15,5 +15,8 @@ describe PagesController do
       response.should be_success
     end
   end
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8ce5aab3e00c220001ae701cb6441f1f358e78f8
 end
