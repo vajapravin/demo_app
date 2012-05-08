@@ -6,7 +6,6 @@ gem 'jquery-rails', '2.0.0'
 #We’ll use the state-of-the-art hash function called bcrypt to irreversibly encrypt the password to form the password hash.
 gem 'bcrypt-ruby', '3.0.1'
 
-gem 'sqlite3', '1.3.6'
 
 gem 'pg'
 
@@ -15,6 +14,7 @@ group :development do
   gem 'guard-rspec', '0.5.5'
   gem 'capybara', '1.1.2'
   gem 'annotate', '~> 2.4.1.beta'
+  gem 'sqlite3', '1.3.6'
 end
 
 
