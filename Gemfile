@@ -8,6 +8,8 @@ gem 'bcrypt-ruby', '3.0.1'
 
 gem 'sqlite3', '1.3.6'
 
+gem 'pg'
+
 group :development do
   gem 'rspec-rails', '2.9.0'
   gem 'guard-rspec', '0.5.5'

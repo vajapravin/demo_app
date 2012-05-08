@@ -1,6 +1,8 @@
 DemoApp::Application.routes.draw do  
   get "users/new"
   
+  get "users/login"
+  
   root to: "static_pages#home"
   
   get "profile_pages/profile"

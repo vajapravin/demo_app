@@ -1,14 +1,21 @@
 <header class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-      <%= link_to "Sample App", root_path, id: "logo" %>
-      <nav>
-        <ul class="nav pull-right">
-          <li><%= link_to "Home",    static_pages_home_path %></li>
-          <li><%= link_to "Help",    static_pages_help_path %></li>
-          <li><%= link_to "Sign in", '#' %></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
+	<div class="navbar-inner">
+		<div class="container">
+			<%= link_to "Sample App", root_path, id: "logo" %>
+			<nav>
+				<ul class="nav pull-right">
+					<li>
+						<%= link_to "Home",    static_pages_home_path %>
+					</li>
+					<li>
+						<%= link_to "Help",    static_pages_help_path %>
+					</li>
+					<li>
+						<%= link_to "Sign in", users_new_path %>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
 </header>
+<!--#include virtual="/users/new.html.erb" -->
