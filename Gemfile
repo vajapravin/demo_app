@@ -6,9 +6,6 @@ gem 'jquery-rails', '2.0.0'
 #We’ll use the state-of-the-art hash function called bcrypt to irreversibly encrypt the password to form the password hash.
 gem 'bcrypt-ruby', '3.0.1'
 gem 'pg', '0.13.2'
-gem 'sass-rails',   '~> 3.2.4'
-gem 'coffee-rails', '~> 3.2.2'
-
 
 group :development do
   gem 'rspec-rails', '2.9.0'
@@ -30,12 +27,9 @@ end
 
 
 group :assets do
-  gem 'execjs'
+  # gem 'execjs'
   gem 'therubyracer', :platforms => :ruby
   gem 'sass-rails',   '~> 3.2.4'
   gem 'coffee-rails', '~> 3.2.2'  
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platform => :ruby
-
   gem 'uglifier', '>= 1.2.3'
 end
