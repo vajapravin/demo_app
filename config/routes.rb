@@ -1,10 +1,8 @@
-DemoApp::Application.routes.draw do  
-  get "users/new"
-  
-  get "users/login"
+DemoApp::Application.routes.draw do 
+  resources :users
   
   root to: "static_pages#home"
-  
+   
   get "profile_pages/profile"
 
   get "profile_pages/editprofile"
