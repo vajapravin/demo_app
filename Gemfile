@@ -30,9 +30,10 @@ end
 
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.4'
-  gem 'coffee-rails', '~> 3.2.2'
   gem 'execjs'
+  gem 'therubyracer', :platforms => :ruby
+  gem 'sass-rails',   '~> 3.2.4'
+  gem 'coffee-rails', '~> 3.2.2'  
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platform => :ruby
 
