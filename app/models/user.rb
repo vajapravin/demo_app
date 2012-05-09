@@ -10,6 +10,8 @@
 #  password_digest :string(255)
 #
 
+
+
 class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation
   has_secure_password
