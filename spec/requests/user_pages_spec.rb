@@ -1,7 +1,5 @@
 require 'spec_helper'
 
-require 'spec_helper'
-
 describe "User pages" do
 
   subject { page }
@@ -28,7 +26,8 @@ describe "User pages" do
 
       it "should create a user" do
         expect { click_button submit }.to change(User, :count).by(1)
-      end
+      end      
+      
     end
   end
   
